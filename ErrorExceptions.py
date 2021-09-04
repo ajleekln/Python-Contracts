@@ -22,8 +22,3 @@ class ensure_referenced_before_require(Exception):
 class contract_error_postcondition(Exception):
     """ postcondition contract is not satisfied"""
     pass    
-
-# Map Errors
-class NotInMapError(Exception):
-    """ Entity is not in the map"""
-    pass
